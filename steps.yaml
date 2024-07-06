@@ -1,0 +1,14 @@
+check if the browser  supports geolocation.
+
+set options for high accuracy, a 5 second timeout, and a maximum age of 0 milliseconds.
+
+use watchPosition() to get the current position of the device.
+
+emit the latitude and longitude of the device via socket with send-location.
+
+Initialize the map centered at coordinates (0, 0) with a zoom level of 15 using Leaflet.
+add openstreetmap tiles to the map.
+
+create an empty marker and add it to the map.
+
+when receiving a location from the server, update the marker's position on the map.
